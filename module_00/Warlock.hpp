@@ -12,12 +12,12 @@ class Warlock
         std::string title;
         Warlock();
     public:
-        Warlock(std::stirng const &name , std::string & const title);
+        Warlock(std::string const &name , std::string  const &title);
         ~Warlock();
         std::string const &getNmae() const;
-        std::string& const getTitle() const;
+        std::string const &getTitle() const;
         void introduce() const;
-        void setTitel(std::string& const title);
+        void setTitel(std::string const &title);
 };
 
 #endif
